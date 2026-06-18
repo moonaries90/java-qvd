@@ -1,0 +1,17 @@
+# Claude Code guidance file — local only, not tracked.
+CLAUDE.md
+
+# Build output
+target/
+
+# Test fixtures derived from proprietary QVD data — kept local, never committed.
+# (binary .qvd files AND the golden JSON, which embeds real column names / sample rows)
+*.qvd
+src/test/resources/qvd/
+src/test/resources/golden/
+
+# IDE / editor
+.idea/
+*.iml
+.vscode/
+.DS_Store
